@@ -37,10 +37,10 @@ public class Main {
 		student.setStudentNumber("757");
 		System.out.println("______________________________________________________\n");
 		studentManager.add();
-		student.userInfo(student);
+		studentManager.userInfo(student);
 
 		instructorManager.add();
-		instructor.userInfo(instructor);
+		instructorManager.userInfo(instructor);
 
 	}
 
